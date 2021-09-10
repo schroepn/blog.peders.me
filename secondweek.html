@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>9/10/2021 Blog Post</title>
+  <link rel="icon" href="/images/icon.png">
+  <link rel="stylesheet" href="/stylesheets/weektwo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Blog Post For The Week Of September 10<sup>th</sup>, 2021</h1>
+    </header>
+
+    <main>
+      <article id="Weekly Learns">
+        <h2>Weekly Learns</h2>
+        <p>
+          This week I decided to try to make the blog look a bit better/more aesthetically pleasing.
+          As you can see by comparing this blog post to last weeks, there has been improvement. Albeit maybe not that much.
+          I used the examples in <a href="https://allover.twodee.org/">the reading for the class [1]</a> to create the monocolumn.
+          But I wanted to have a header that popped out.  So after taking the reading and adding <a href="https://www.w3schools.com/css/css_align.asp">some alignment[2]</a> and color changing,
+          I got a new fancy header that says the week for the blog Post.
+        </p>
+        <p>
+          At some point I want to get a following header, that follows the web page down. 
+          Like what happens to <a href="https://www.google.com/search?q=now+go+and+scroll+down+the+page">the google search bar[3]</a>
+          when you scroll down. I guessed that it was from the <span class="code">style="position: fixed; top: 0px;"</span>
+          And after playing around with it a bit, I figured out it was from <span class="code">position:fixed</span>.
+          So I added it to this page. Which had&hellip; not so great of an outcome.</p>
+          <img src="images/bad_header.png" alt="The header on an unpublished version of this page only took up the left 50% of the screen">
+        <p>
+          But it was staying at the top of the page when I scrolled down, so there's that.  I just needed to recenter it. Which was pretty easy,
+          all I did was make it span the entire page instead of just try to get it to cover only the middle 50%, then I just center aligned the text using
+          <span class="code">text-align: center;</span>.
+          The final problem: get the main content to sit comfortablly under the header.  I thought it would be just as easy as adding a margin to the main,
+          but it also adeded some margin to the header.  So I added padding instead, so now there is technically some empty space under the header,
+          but that shouldn't really matter, right?
+        </p>
+      </article>
+      <article id="pokemon">
+        <h2>POKEMON</h2>
+        <p>
+          In other news... I've been playing pokemon go lately, and I finally got the best pokemon in the game: Shuckle.
+          Shuckle is <a href="https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)">pokemon number 213[4]</a>, and shuckle is great.  Shuckle has the highest defense stats in all games, and those defense stats 
+          are some of the highest stats period.  No pokemon is as offensive as shuckle is defensive.  
+        </p>
+        <img id="shuckle" src="https://cdn2.bulbagarden.net/upload/c/c7/213Shuckle.png" alt:"An image of the god: shuckle">
+      </article>
+      <article id="other interesting">
+        <h2>Other Interesting Things this Week</h2>
+        <p>
+          Nothing much of note this week unfortunately.
+        </p>
+      </article>
+    </main>
+
+    <footer id="links">
+      <h4>links for ease of clicking:</h4>
+      <ol>
+          <li><a href="https://allover.twodee.org/">https://allover.twodee.org/</a></li>
+          <li><a href="https://www.w3schools.com/css/css_align.asp">https://www.w3schools.com/css/css_align.asp</a></li>
+          <li><a href="https://www.google.com/search?q=now+go+and+scroll+down+the+page">https://www.google.com/search?q=now+go+and+scroll+down+the+page</a></li>
+          <li><a href="https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)">https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)</a></li>
+      </ol>
+    </footer>
+
+</body>
+
+</html>

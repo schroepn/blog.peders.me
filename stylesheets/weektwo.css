@@ -1,0 +1,53 @@
+.code {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 1px;
+    padding: 1px 2px;
+    background-color: lightgray;
+    font-family: monospace;
+  }
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: lightpink;
+  position:fixed;
+  text-align: center;
+}
+
+body {
+  background-color: lightgray;
+  margin: 0;
+}
+
+
+main{
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  padding-top: 90px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+footer {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+#shuckle {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  max-height: 300px;
+}
