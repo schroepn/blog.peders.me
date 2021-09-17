@@ -1,2 +1,2 @@
-# peders.me
-This is my personal website for people to find me and to know more about me.
+# blog.peders.me
+This is my personal blog started for my web development class.
