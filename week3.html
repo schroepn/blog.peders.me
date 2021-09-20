@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>9/17/2021 Blog Post</title>
+  <link rel="icon" href="/images/icon.png">
+  <link rel="stylesheet" href="/stylesheets/week3.css">
+</head>
+
+<body>
+    <header>
+        <h1>Blog Post For The Week Of September 17<sup>th</sup>, 2021</h1>
+    </header>
+
+    <div id="root">
+        <aside>
+            <a href="/index.html">Blog</a>
+            <a href="http://peders.me">Home</a>
+        </aside>
+        
+        <main>
+            <article id="Weekly Learns">
+            <h2>Weekly Learns</h2>
+            <p>
+                This week, I wanted to improve the look of the blog even more, so time for sidebars with links!
+                Looking at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN's website[1]</a>, it seems to use an aside for the sidebar.
+                <img src="/images/91721-1.png" alt="image of mozilla developer page with its insides showing">
+                So, now time to add an aside!
+            </p>
+            <p>
+                Yeah Yeah, formatting with CSS.  I am going to make an educated guess that they used a flexbox.  And if we check it&hellip;
+                I'm not sure.  The CSS I can see talks about <span class="code">grid-row</span> and <span class="code">grid-column</span>.
+                Which <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">from what I can understand from MDN[2]</a>
+                means that the page is layed out like a 2d grid (whodathunk).  <a href="https://blog.hubspot.com/website/css-grid-vs-flexbox">According to HubSpot[3]</a> the difference
+                between flex and grid is that flex is 1d, while grid is 2d. 
+            </p> 
+            <p>
+                After looking back at the mdn screenshot, I noticed that everything is put into a root div.  Which probably makes it easier when using both.
+                Although, I guess I would change whether or not the header was in the root depending on if i used flex or grid.
+                I am going to try to use flex, because grid includes grids and, as we all know, grids are scary.
+
+                Now I should probably learn about color theory and learn what colors look good with each other&hellip; Nah.
+            </p>
+            </article>
+            <article id="pokemon">
+              <h2>POKEMON</h2>
+              <p>
+                Not much pokemon news this time around. I really should restart watching pokemon though.
+              </p>
+            </article>
+            <article id="other interesting">
+              <h2>Other Interesting Things this Week</h2>
+              <p>
+                I got a DnD game session 0 happening on sunday... thats exciting.  Its happening as one of the SFFG (sci-fi fantasy guild)
+                newbie games, even though I'm not new to DnD, I haven't played any SFFG games before because of scheduling.
+              </p>
+            </article>
+            <footer id="links">
+              <h4>links for ease of clicking:</h4>
+              <ol>
+                  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></li>
+                  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column</a></li>
+                  <li><a href="https://blog.hubspot.com/website/css-grid-vs-flexbox">https://blog.hubspot.com/website/css-grid-vs-flexbox</a></li>
+              </ol>
+            </footer>
+          </main>
+          
+    </div>
+</body>
+
+</html>
