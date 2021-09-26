@@ -5,6 +5,7 @@
   <title>9/17/2021 Blog Post</title>
   <link rel="icon" href="/images/icon.png">
   <link rel="stylesheet" href="/stylesheets/default.css">
+  <link rel="stylesheet" href="stylesheets/week4.css">
 </head>
 
 <body>
@@ -22,33 +23,55 @@
         <article id="Weekly Learns">
         <h2>Weekly Learns</h2>
         <p>
-            This week I decided to look into CSS animation, because Professor Stewart mentioned it and said we didn't need to use it for the upcoming project.
-            But I wanna know more!  Time to dive into MDN!
+          This week, I decided to make last weeks stylesheet the default, and to make a new stylesheet for specifics for each new blog post.
+          First, I had to figure out if I could have more than one stylesheet linked (<a href="https://discuss.codecademy.com/t/can-you-apply-multiple-stylesheets-to-a-single-page/369792/5">hint: you can[1]</a>).
+          So then it turns out all I had to do was mak the stylesheet and add another <span class="code">&lt;link&gt;</span>.
+        </p>
+        <p>
+            This week I also decided to look into CSS animation, because Professor Stewart mentioned it and said we didn't need to use it for the upcoming project.
+            But I wanna know more!  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation">Time to dive into MDN![2]</a>
         </p>
         <figure>
-          <img id="moving_circle" src="images/circle_moving.gif" alt="A gif showing a circle moving">
+          <img class="gif" id="moving_circle" src="images/circle_moving.gif" alt="A gif showing a circle moving">
           <figcaption>Have a gif will I learn to animate using css</figcaption>
         </figure>
+        <p>
+          So&hellip;turns out animation is more difficult than just displaying words a certain way, who knew?  I'm going to try to make a <span class="code">&lt;div&gt;</span> with a special color float across the screen.
+          If that isn't below this paragraph, you can only assumed I failed, probably both through a lack of trying and because of difficulty.
+        </p>
+        <figure class="animation">
+          <img src="images/shuckle.png">
+          <figcaption>weeee</figcaption>
+        </figure>
+        <p>
+          Welp, would you look at that&hellip;  I used <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#examples">the examples on this MDN page[3]</a> to make it.
+          So it might not be as hard as I thought, though using it as a response to someone clicking a button will probably require JS, which I don't have experience in.
+        </p>
         </article>
         <article id="pokemon">
           <h2>POKEMON</h2>
           <p>
-            Not much pokemon news this time around. I really should restart watching pokemon though.
+            I've started playing Pokemon UNITE, which is a pokemon MOBA (Moba: Multiplayer Online Battle Arena).  It's pretty fun, I will probably play a bunch more of it whenever I remember it.
+            If only they put shuckle in Unite.
           </p>
         </article>
         <article id="other interesting">
           <h2>Other Interesting Things this Week</h2>
           <p>
-            I got a DnD game session 0 happening on sunday... thats exciting.  Its happening as one of the SFFG (sci-fi fantasy guild)
-            newbie games, even though I'm not new to DnD, I haven't played any SFFG games before because of scheduling.
+            As I am the Treasurer of the JMU Anime Club, it is my job to take money and handle money.  
+            By September 28<sup>th</sup> I need to finish gathering money from people who are going with the anime club to Katsucon.
+            (Katsucon: An anime convention held near DC)
+            I have mostly finished collecting from people who said they will go, but a few people have not paid yet, and that means they would have to pay 75$ instead of 60$, 
+            not to mention they would have to find their own hotel.
+            I plan on sending out an email to those who haven't paid yet to make sure they do so.
           </p>
         </article>
         <footer id="links">
           <h4>links for ease of clicking:</h4>
           <ol>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column</a></li>
-              <li><a href="https://blog.hubspot.com/website/css-grid-vs-flexbox">https://blog.hubspot.com/website/css-grid-vs-flexbox</a></li>
+              <li><a href="https://discuss.codecademy.com/t/can-you-apply-multiple-stylesheets-to-a-single-page/369792/5">https://discuss.codecademy.com/t/can-you-apply-multiple-stylesheets-to-a-single-page/369792/5</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation">https://developer.mozilla.org/en-US/docs/Web/CSS/animation</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations</a></li>
           </ol>
         </footer>
       </main>

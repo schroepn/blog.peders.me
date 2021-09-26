@@ -1,10 +1,10 @@
 .code {
-    display: inline-block;
-    border-radius: 5px;
-    padding: 1px;
-    padding: 1px 2px;
-    background-color: lightgray;
-    font-family: monospace;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 1px;
+  padding: 1px 2px;
+  background-color: lightgray;
+  font-family: monospace;
   }
 
 header {
@@ -18,21 +18,21 @@ header {
 }
 
 #root {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-top: 10vh;
-    height: 90vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 10vh;
+  height: 90vh;
 }
 
 aside {
-    background-color: yellow;
-    display: flex;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    width: 15%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 15%;
 }
 
 body {
@@ -62,11 +62,11 @@ footer {
 }
 
 aside a {
-    background-color: lightslategray;
-    margin: 5px 100%;
-    width: 100%;
-    text-align: center;
-    color: lightyellow;
+  background-color: lightslategray;
+  margin: 5px 100%;
+  width: 100%;
+  text-align: center;
+  color: lightyellow;
 }
 
 img {
